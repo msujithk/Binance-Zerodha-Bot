@@ -12,8 +12,8 @@ buf = [x for x in buf if x not in remove]
 print(buf)
 
 
-api_key = 'z2eq7chglmfkhy4k' 
-s_key = 'viazgyt22cbluetute5727kyy908lyx5'
+api_key = '' 
+s_key = ''
 kite = KiteConnect(api_key=api_key)
 url = kite.login_url()
 print(url)
